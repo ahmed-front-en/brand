@@ -240,7 +240,8 @@ font-weight: var(--font-semi);
 
 .collection__box{
   display: flex;
-  justify-content: space-between;align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 1.5rem;
   background-color: var(--gray-color);
   transition: .3s;
@@ -252,7 +253,7 @@ font-weight: var(--font-semi);
 
 
 .collection__img{
-  width: 100px;
+  width: 75px;
 }
 
 
@@ -331,6 +332,29 @@ font-weight: var(--font-semi);
 
 
 /*===== OFFER =====*/
+.offer__bg{
+  background: url("/assets/img/offer.jpg")no-repeat center/cover;
+  text-align: center;
+}
+
+.offer__data{
+  padding: 3.5rem .25rem;
+  background: rgba(0, 0, 0, .5);
+  color: var(--white-color);
+}
+
+
+.offer__title{
+  font-size: var(--h1-font-size);
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-weight: var(--font-semi);
+}
+
+.offer__description{
+  margin-bottom: var(--mb-2);
+  letter-spacing: .2rem;
+}
 
 
 /*===== NEW ARRIVALS =====*/
